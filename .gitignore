@@ -1,0 +1,12 @@
+# Licensed CMIE Prowess data — must never be committed
+data/prowess_*.csv
+data/dataset_modeling.csv
+data/dataset_full_unfiltered.csv
+
+# Generated outputs (regenerate by running the scripts)
+outputs/*.csv
+outputs/*.png
+
+venv/
+__pycache__/
+*.pkl
